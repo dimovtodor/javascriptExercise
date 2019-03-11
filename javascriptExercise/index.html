@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+    <h5 class="fixed-bottom text-sm-right text-light ">Todor Dimov</h5>
+    <div class="container">
+        <h1 class="text-sm-center font-weight-bold text-light">High or Low?</h1>
+        <div class="text-sm-center">
+            <button id="newGame" class="btn btn-outline-light">New Game</button>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3 text-sm-center">
+                <div class="container text-light gameBox">
+                   <div class="p-sm-5">
+                       <h1>Current Score:</h1>
+                       <h1 id="curr_score">0</h1>
+                   </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="container gameBox">
+                    <div class="text-sm-center">
+                        <img src="3-Number-PNG.png" id="roll">
+                    </div>
+                    <br>
+                    <div class="text-sm-center clearfix">
+                        <button id="high" class="btn btn-outline-light btn-lg float-left mt-5 font-weight-bold hilo">High</button>
+                        <img src="high.png" class="float-right">
+                    </div>
+
+                    <div class="text-sm-center clearfix">
+                        <button id="low" class="btn btn-outline-light btn-lg float-left mt-5 font-weight-bold hilo">Low</button>
+                        <div class="">
+                            <img src="low.png" class="float-right">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 text-sm-center">
+                <div class="container text-light gameBox">
+                    <div class="p-sm-5">
+                        <h1>High Score:</h1>
+                        <h1 id="best_score">0</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="game.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+</body>
+</html>

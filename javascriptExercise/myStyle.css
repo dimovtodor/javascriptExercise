@@ -1,0 +1,39 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Franklin Gothic Heavy";
+    text-shadow: 0 0 5px black;
+}
+.gameBox{
+    background-color: rgba(20, 0, 20, 0.2);
+    border-radius: 470px;
+    height: 470px;
+    width: 256px;
+}
+img{
+    height: 128px;
+    width: 128px;
+}
+button{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+.hilo{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 90px;
+}
+#newGame{
+    border-radius: 10px;
+}
+#newGame:hover{
+    font-weight: bold;
+}
+#curr_score{
+    font-size: 120px;
+}
+#best_score{
+    font-size: 120px;
+}
+
